@@ -93,12 +93,24 @@ body {
     font-size: 0.85rem;
     font-weight: 600;
     letter-spacing: 1px;
-    cursor: pointer;
     color: var(--text-muted);
+}
+
+.lang-switch span {
+    cursor: pointer;
     transition: color 0.3s ease;
 }
 
-.lang-switch:hover {
+.lang-switch span.active {
+    color: var(--accent-color);
+}
+
+.lang-switch span.separator {
+    cursor: default;
+    margin: 0 5px;
+}
+
+.lang-switch span:not(.separator):hover {
     color: var(--text-light);
 }
 

@@ -13,76 +13,79 @@
     <nav class="navbar">
         <div class="logo">Elena</div>
         <ul class="nav-links">
-            <li><a href="#gallery">Galerie / Gallery</a></li>
-            <li><a href="#shop">Magazin / Shop</a></li>
-            <li><a href="#journal">Jurnal / Journal</a></li>
+            <li><a href="#gallery" data-i18n="nav_gallery">Galerie</a></li>
+            <li><a href="#shop" data-i18n="nav_shop">Magazin</a></li>
+            <li><a href="#journal" data-i18n="nav_journal">Jurnal</a></li>
         </ul>
-        <div class="lang-switch">RO | EN</div>
+        <div class="lang-switch">
+            <span id="lang-ro" class="active">RO</span> <span class="separator">|</span> <span id="lang-en">EN</span>
+        </div>
     </nav>
 
     <header class="hero">
         <div class="hero-content">
-            <h1>Elena Homemade decorațiuni</h1>
-            <p>Inspirat de liniștea munților / Inspired by mountain silence</p>
-            <a href="#shop" class="cta-btn">Descoperă Colecția</a>
+            <h1 data-i18n="hero_title">Elena Homemade decorațiuni</h1>
+            <p data-i18n="hero_subtitle">Inspirat de liniștea munților</p>
+            <a href="#shop" class="cta-btn" data-i18n="hero_cta">Descoperă Colecția</a>
         </div>
     </header>
 
     <section id="gallery" class="section">
-        <h2 class="section-title">Povestea în imagini <span>The Visual Story</span></h2>
+        <h2 class="section-title" data-i18n="gallery_title">Povestea în imagini</h2>
         <div class="gallery-grid">
             <div class="gallery-item tall" style="background-image: url('https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&q=80');">
-                <div class="overlay"><span>Lumânări artizanale</span></div>
+                <div class="overlay"><span data-i18n="gallery_item1">Lumânări artizanale</span></div>
             </div>
             <div class="gallery-item" style="background-image: url('https://images.unsplash.com/photo-1612204530299-8383f9416b5a?auto=format&fit=crop&q=80');">
-                <div class="overlay"><span>Tradiție & Cruci</span></div>
+                <div class="overlay"><span data-i18n="gallery_item2">Tradiție & Cruci</span></div>
             </div>
             <div class="gallery-item wide" style="background-image: url('https://images.unsplash.com/photo-1544175013-3563aeb9620a?auto=format&fit=crop&q=80');">
-                <div class="overlay"><span>Atelierul Elenei</span></div>
+                <div class="overlay"><span data-i18n="gallery_item3">Atelierul Elenei</span></div>
             </div>
         </div>
     </section>
 
     <section id="shop" class="section shop-bg">
-        <h2 class="section-title">Colecții <span>Collections</span></h2>
+        <h2 class="section-title" data-i18n="shop_title">Colecții</h2>
         <div class="product-container">
             <div class="product-card">
                 <div class="product-img" style="background-image: url('assets/images/bunny.png');"></div>
                 <div class="product-info">
-                    <h3>Iepuraș de Paște <span>Easter Bunny</span></h3>
-                    <p class="price">45.00 RON / €9.00</p>
-                    <button class="buy-btn">Adu-l acasă / Bring Home</button>
+                    <h3 data-i18n="product1_title">Iepuraș de Paște</h3>
+                    <p class="price" data-i18n="product1_price">45.00 RON</p>
+                    <button class="buy-btn" data-i18n="buy_btn">Adu-l acasă</button>
                 </div>
             </div>
             <div class="product-card">
                 <div class="product-img" style="background-image: url('assets/images/cross.png');"></div>
                 <div class="product-info">
-                    <h3>Cruce Textilă <span>Textile Cross</span></h3>
-                    <p class="price">60.00 RON / €12.00</p>
-                    <button class="buy-btn">Adu-l acasă / Bring Home</button>
+                    <h3 data-i18n="product2_title">Cruce Textilă</h3>
+                    <p class="price" data-i18n="product2_price">60.00 RON</p>
+                    <button class="buy-btn" data-i18n="buy_btn">Adu-l acasă</button>
                 </div>
             </div>
             <div class="product-card">
                 <div class="product-img" style="background-image: url('assets/images/candle.png');"></div>
                 <div class="product-info">
-                    <h3>Lumânare Florală <span>Flower Candle</span></h3>
-                    <p class="price">35.00 RON / €7.00</p>
-                    <button class="buy-btn">Adu-l acasă / Bring Home</button>
+                    <h3 data-i18n="product3_title">Lumânare Florală</h3>
+                    <p class="price" data-i18n="product3_price">35.00 RON</p>
+                    <button class="buy-btn" data-i18n="buy_btn">Adu-l acasă</button>
                 </div>
             </div>
         </div>
     </section>
 
     <section id="journal" class="section journal-bg">
-        <h2 class="section-title">Jurnal <span>Journal</span></h2>
+        <h2 class="section-title" data-i18n="journal_title">Jurnal</h2>
         <div class="journal-content">
-            <p>Din inima munților, fiecare piesă este creată cu dragoste, răbdare și respect pentru tradiție. <br><br> <i>From the heart of the mountains, each piece is created with love, patience, and respect for tradition.</i></p>
+            <p data-i18n="journal_text">Din inima munților, fiecare piesă este creată cu dragoste, răbdare și respect pentru tradiție.</p>
         </div>
     </section>
 
     <footer class="footer">
-        <p>&copy; 2026 Elena Homemade decoratiuni. Din inima Carpaților.</p>
+        <p data-i18n="footer_text">&copy; 2026 Elena Homemade decoratiuni. Din inima Carpaților.</p>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>
