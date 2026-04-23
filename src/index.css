@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  --color-linen: #F5F2ED;
+  --color-forest: #2D3A27;
+  --color-sand: #D2B48C;
+
+  --font-heading: "Cormorant Garamond", serif;
+  --font-body: "Montserrat", sans-serif;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-linen);
+    color: #1a1a1a;
+    font-family: var(--font-body);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+  }
+}
+
+@layer utilities {
+  .stitch-border {
+    background-image: url('/assets/images/pattern_divider.png');
+    background-repeat: repeat-x;
+    background-position: bottom center;
+    background-size: auto 80px;
+  }
+}

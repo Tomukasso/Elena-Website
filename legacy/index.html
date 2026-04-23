@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elena Homemade decoratiuni | Arta Carpaților</title>
+    <meta name="description" content="Decorațiuni artizanale românești inspirate de liniștea munților Carpați. Lumânări, cruci textile și multe altele.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">
+            <span class="logo-red">Elena</span>
+            <span class="logo-white">Homemade</span>
+            <span class="logo-red">decorations</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#gallery" data-i18n="nav_gallery">Galerie</a></li>
+            <li><a href="#shop" data-i18n="nav_shop">Magazin</a></li>
+            <li><a href="#journal" data-i18n="nav_journal">Jurnal</a></li>
+        </ul>
+        <div class="nav-right">
+            <div class="lang-switch">
+                <span id="lang-ro" class="active">RO</span> <span class="separator">|</span> <span id="lang-en">EN</span>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+
+        <div class="hero-content">
+            <p data-i18n="hero_subtitle">Inspirat de liniștea munților</p>
+            <a href="#shop" class="cta-btn" data-i18n="hero_cta">Descoperă Colecția</a>
+        </div>
+    </header>
+
+    <section id="gallery" class="section">
+        <h2 class="section-title" data-i18n="gallery_title">Povestea în imagini</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item tall" style="background-image: url('https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&q=80');">
+                <div class="overlay"><span data-i18n="gallery_item1">Lumânări artizanale</span></div>
+            </div>
+            <div class="gallery-item" style="background-image: url('https://images.unsplash.com/photo-1612204530299-8383f9416b5a?auto=format&fit=crop&q=80');">
+                <div class="overlay"><span data-i18n="gallery_item2">Tradiție & Cruci</span></div>
+            </div>
+            <div class="gallery-item wide" style="background-image: url('https://images.unsplash.com/photo-1544175013-3563aeb9620a?auto=format&fit=crop&q=80');">
+                <div class="overlay"><span data-i18n="gallery_item3">Atelierul Elenei</span></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="shop" class="section shop-bg">
+        <h2 class="section-title" data-i18n="shop_title">Colecții</h2>
+        <div class="product-container">
+            <div class="product-card">
+                <div class="product-img" style="background-image: url('assets/images/bunny.png');"></div>
+                <div class="product-info">
+                    <h3 data-i18n="product1_title">Iepuraș de Paște</h3>
+                    <p class="price" data-i18n="product1_price">45.00 RON</p>
+                    <button class="buy-btn" data-i18n="buy_btn">Adu-l acasă</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-img" style="background-image: url('assets/images/cross.png');"></div>
+                <div class="product-info">
+                    <h3 data-i18n="product2_title">Cruce Textilă</h3>
+                    <p class="price" data-i18n="product2_price">60.00 RON</p>
+                    <button class="buy-btn" data-i18n="buy_btn">Adu-l acasă</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-img" style="background-image: url('assets/images/candle.png');"></div>
+                <div class="product-info">
+                    <h3 data-i18n="product3_title">Lumânare Florală</h3>
+                    <p class="price" data-i18n="product3_price">35.00 RON</p>
+                    <button class="buy-btn" data-i18n="buy_btn">Adu-l acasă</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="journal" class="section journal-bg">
+        <h2 class="section-title" data-i18n="journal_title">Jurnal</h2>
+        <div class="journal-content">
+            <p data-i18n="journal_text">Din inima munților, fiecare piesă este creată cu dragoste, răbdare și respect pentru tradiție.</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p data-i18n="footer_text">&copy; 2026 Elena Homemade decoratiuni. Din inima Carpaților.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
